@@ -1,0 +1,28 @@
+.header {
+    background: var(--gray-700);
+    display: flex;
+    justify-content: center;
+    height: 12.5rem;
+    padding: 4.75rem 0;
+}
+
+.boxtodo {
+    width: 7.875rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.boxtodo > div {
+    font-weight: bold;
+    font-family: inter;
+    line-height: 3.025rem;
+    font-size: 40px;
+    color: var(--blue);
+}
+
+.boxtodo > div > span {
+    color: var(--purple-dark);
+}
+

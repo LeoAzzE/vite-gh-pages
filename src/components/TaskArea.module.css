@@ -1,0 +1,181 @@
+.wrapper {
+    flex-direction: column;
+    height: auto;
+    font-family: inter;
+    width: 46rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+.firstContent {
+    color: var(--blue);
+}
+
+.secondContent {
+    color: var(--purple);
+}
+
+.tasksCounter {
+font-size: 0.85rem;
+font-family: inter;
+width: 46rem;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.numberTask {
+    font-weight: 550;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 0.5rem;
+}
+
+.contentTaskOne {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7rem;
+    color: white;
+    border-radius: 50%;
+    background-color: var(--gray-400);
+    width: 1.5rem;
+    height: 1.1rem;
+    padding: 2px 8px;
+}
+
+.contentTaskTwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7rem;
+    color: white;
+    border-radius: 999px;
+    background-color: var(--gray-400);
+    width: 3.3rem;
+    height: 1.1rem;
+    padding: 2px 3px;
+}
+
+.tasksOn {
+margin-top: 1.5rem;
+}
+
+.taskListOff {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2%;
+    margin-top: 2rem;
+    max-width: 46rem;
+    height: auto;
+    border-top: 1px solid var(--gray-400);
+    padding: 4rem 1.5rem;
+    text-align: center;
+    flex-direction: column;
+}
+
+.taskListOn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2%;
+    margin-top: 2rem;
+    max-width: 46rem;
+    height: auto;
+    border-top: 1px solid var(--gray-400);
+    padding: 4rem 1.5rem;
+    text-align: center;
+    flex-direction: column;
+}
+
+
+.messages {
+    margin-top: 1rem ;
+}
+
+.text1 {
+    font-weight: 600;
+    color: var(--gray-300);
+}
+
+.text2 {
+    font-weight: 100;
+    color: var(--gray-300);
+}
+
+.formTask {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: -1.25rem;
+    gap: 0.5rem;
+}
+
+.formTask > textarea {
+    color: var(--gray-300);
+    border: 1px solid var(--gray-700);
+    resize: none;
+    font-family: inter;
+    line-height: 1.4rem;
+    font-weight: 400;
+    font-size: 0.92rem;
+    background-color: var(--gray-500);
+    overflow: hidden;
+    width: 39.875rem;
+    height: 3.3rem;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.formTask > button {
+    border: none;
+    width:5.625rem;
+    height: 3.25rem;
+    border-radius: 8px;
+    background-color: var(--blue-dark);
+    cursor: pointer;
+}
+
+.formTask > button:hover {
+    background-color: var(--blue);
+}
+
+.boxButton {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    justify-content: center;
+    color: var(--gray-100);
+    font-family: inter;
+    font-weight: 500;
+}
+
+.create {
+    font-size: 0.9rem;
+    line-height: 0.8rem;
+}
+
+@media (max-width: 780px) {
+    .wrapper {
+        width: 100%;
+    }
+
+    .tasksCounter {
+        width: 100%;
+    }
+
+    .boxButton {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    }
+
